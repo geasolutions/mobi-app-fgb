@@ -26,11 +26,11 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <engine name="android" spec="^6.3.0" />
-    <plugin name="cordova-plugin-device-orientation" spec="git+https://github.com/apache/cordova-plugin-device-orientation.git" />
-    <plugin name="cordova-plugin-device" spec="git+https://github.com/apache/cordova-plugin-device.git" />
-    <plugin name="cordova-plugin-android-permissions" spec="git+https://github.com/NeoLSN/cordova-plugin-android-permissions.git" />
-    <plugin name="cordova-plugin-geolocation" spec="git+https://github.com/apache/cordova-plugin-geolocation.git" />
-    <plugin name="cordova-plugin-device-motion" spec="git+https://github.com/apache/cordova-plugin-device-motion.git" />
-    <plugin name="cordova-plugin-network-information" spec="git+https://github.com/apache/cordova-plugin-network-information.git" />
-    <plugin name="cordova-plugin-contacts" spec="git+https://github.com/apache/cordova-plugin-contacts.git" />
+    <plugin name="cordova-plugin-device-orientation" spec="https://github.com/apache/cordova-plugin-device-orientation.git" />
+    <plugin name="cordova-plugin-device" spec="https://github.com/apache/cordova-plugin-device.git" />
+    <plugin name="cordova-plugin-android-permissions" spec="https://github.com/NeoLSN/cordova-plugin-android-permissions.git" />
+    <plugin name="cordova-plugin-geolocation" spec="https://github.com/apache/cordova-plugin-geolocation.git" />
+    <plugin name="cordova-plugin-device-motion" spec="https://github.com/apache/cordova-plugin-device-motion.git" />
+    <plugin name="cordova-plugin-network-information" spec="https://github.com/apache/cordova-plugin-network-information.git" />
+    <plugin name="cordova-plugin-contacts" spec="https://github.com/apache/cordova-plugin-contacts.git" />
 </widget>
