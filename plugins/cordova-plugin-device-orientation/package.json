@@ -1,0 +1,88 @@
+{
+  "_from": "git+https://github.com/apache/cordova-plugin-device-orientation.git",
+  "_id": "cordova-plugin-device-orientation@2.0.1-dev",
+  "_inBundle": false,
+  "_integrity": "sha1-FigVR7IsDmYPMWOMdwokTjJ0zK0=",
+  "_location": "/cordova-plugin-device-orientation",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/apache/cordova-plugin-device-orientation",
+    "rawSpec": "https://github.com/apache/cordova-plugin-device-orientation",
+    "saveSpec": "git+https://github.com/apache/cordova-plugin-device-orientation.git",
+    "fetchSpec": "https://github.com/apache/cordova-plugin-device-orientation.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/apache/cordova-plugin-device-orientation.git#b8ce4ad520f3e634b7c7512cb3ceada55becab83",
+  "_spec": "https://github.com/apache/cordova-plugin-device-orientation",
+  "_where": "F:\\wamp64\\www\\CordovaMapsSample3",
+  "author": {
+    "name": "Apache Software Foundation"
+  },
+  "bugs": {
+    "url": "https://issues.apache.org/jira/browse/CB"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-device-orientation",
+    "platforms": [
+      "firefoxos",
+      "android",
+      "amazon-fireos",
+      "ubuntu",
+      "blackberry10",
+      "ios",
+      "wp7",
+      "wp8",
+      "windows8",
+      "tizen",
+      "browser"
+    ]
+  },
+  "deprecated": false,
+  "description": "[DEPRECATED] Cordova Device Orientation Plugin",
+  "devDependencies": {
+    "jshint": "^2.6.0"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "2.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "homepage": "https://github.com/apache/cordova-plugin-device-orientation#readme",
+  "keywords": [
+    "cordova",
+    "device",
+    "orientation",
+    "ecosystem:cordova",
+    "cordova-firefoxos",
+    "cordova-android",
+    "cordova-amazon-fireos",
+    "cordova-ubuntu",
+    "cordova-blackberry10",
+    "cordova-ios",
+    "cordova-wp7",
+    "cordova-wp8",
+    "cordova-windows8",
+    "cordova-tizen",
+    "cordova-browser"
+  ],
+  "license": "Apache-2.0",
+  "name": "cordova-plugin-device-orientation",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apache/cordova-plugin-device-orientation.git"
+  },
+  "scripts": {
+    "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint tests",
+    "test": "npm run jshint"
+  },
+  "types": "./types/index.d.ts",
+  "version": "2.0.1-dev"
+}

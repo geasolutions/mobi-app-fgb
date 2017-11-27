@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.coolappz.CordovaMapsSample3" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>CordovaMapsSample3</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*://*.googleapis.com/*" subdomains="true" />
+    <access origin="*://*.gstatic.com/*" subdomains="true" />
+    <access origin="*://*.google.com/*" subdomains="true" />
+    <access origin="*://*.googleusercontent.com/*" subdomains="true" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <engine name="android" spec="^6.3.0" />
+    <plugin name="cordova-plugin-device-orientation" spec="git+https://github.com/apache/cordova-plugin-device-orientation.git" />
+    <plugin name="cordova-plugin-device" spec="git+https://github.com/apache/cordova-plugin-device.git" />
+    <plugin name="cordova-plugin-android-permissions" spec="git+https://github.com/NeoLSN/cordova-plugin-android-permissions.git" />
+    <plugin name="cordova-plugin-geolocation" spec="git+https://github.com/apache/cordova-plugin-geolocation.git" />
+    <plugin name="cordova-plugin-device-motion" spec="git+https://github.com/apache/cordova-plugin-device-motion.git" />
+    <plugin name="cordova-plugin-network-information" spec="git+https://github.com/apache/cordova-plugin-network-information.git" />
+    <plugin name="cordova-plugin-contacts" spec="git+https://github.com/apache/cordova-plugin-contacts.git" />
+</widget>

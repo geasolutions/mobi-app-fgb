@@ -1,0 +1,36 @@
+{
+  "name": "com.coolappz.cordovamapssample3",
+  "displayName": "CordovaMapsSample3",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cordova-android": "^6.3.0",
+    "cordova-plugin-android-permissions": "git+https://github.com/NeoLSN/cordova-plugin-android-permissions.git",
+    "cordova-plugin-contacts": "git+https://github.com/apache/cordova-plugin-contacts.git",
+    "cordova-plugin-device": "git+https://github.com/apache/cordova-plugin-device.git",
+    "cordova-plugin-device-motion": "git+https://github.com/apache/cordova-plugin-device-motion.git",
+    "cordova-plugin-device-orientation": "git+https://github.com/apache/cordova-plugin-device-orientation.git",
+    "cordova-plugin-geolocation": "git+https://github.com/apache/cordova-plugin-geolocation.git",
+    "cordova-plugin-network-information": "git+https://github.com/apache/cordova-plugin-network-information.git"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-device-orientation": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-android-permissions": {},
+      "cordova-plugin-geolocation": {},
+      "cordova-plugin-device-motion": {},
+      "cordova-plugin-network-information": {},
+      "cordova-plugin-contacts": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  }
+}
