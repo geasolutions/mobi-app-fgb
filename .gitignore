@@ -1,4 +1,7 @@
 nbproject/*
+node_modules/*
+platforms/*
+plugins/*
 .npmignore
 
 

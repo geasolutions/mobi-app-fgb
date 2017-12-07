@@ -9,7 +9,7 @@ var previous_pos_marker = {};
 $(document).ready(function() {
     document.addEventListener("deviceready", onDeviceReady, false);
     //for testing in Chrome browser uncomment
-//    onDeviceReady();
+    onDeviceReady();
 });
 
 function onDeviceReady() {
