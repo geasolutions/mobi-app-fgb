@@ -661,13 +661,13 @@ function MapCtrl(onFail) {
 
 
     this.locateMe = function() {
-        showAlert("Entré al método locateMe", "google.load");
-	    $.mobile.showPageLoadingMsg();
+       /* showAlert("Entré al método locateMe", "google.load");
+	    $.mobile.showPageLoadingMsg();*/
         google.load("maps", "3.8", {"callback": function() {
                 loadMapWatchLocation(self.mapContainter, function(position) {
                     showOnMap(position, self.headerID);
                 });
-            }/*, other_params: "sensor=true&language=en&libraries=places"*/});
+            }, other_params: "sensor=true&language=en&libraries=places"});
     };
 
     this.locateAddress = function() {
